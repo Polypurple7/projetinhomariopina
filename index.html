@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,200;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/records.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="header-title">Inscrição</object></h1>
+    </header>
+    <main>
+        <table id="tableClient" class="records">
+            <thead>
+                <tr>
+                    <td>Número de inscrição</td>
+                </tr>
+                        <tr>
+                    <input type="text" id="Número de inscrição" class="modal-field" required>  
+                    </tr>
+                   <tr>
+                    <td></td>Nome</td>
+                    <input type="text" id="Nome do inscrito" class="modal-field" required>  
+
+                    </tr>
+
+
+                    <th>RG</th>
+
+                    <th>CPF</th>
+
+                    <th>Expedido por: </th>
+
+
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <header class="modal-header"></header>
+                    <span class="modal-close" id="modalClose">&#10006;</span>
+                </header>
+                <table>
+                <form id="form" class="modal-form">
+                
+           
+                    <input type="text" id="RG" class="modal-field" placeholder="RG do inscrito" required> 
+                    <input type="text" id="CPF" data-index="new" class="modal-field" placeholder="CPF do inscrito" required>
+                    <input type="email" id="E-mail" class="modal-field" placeholder="E-mail do inscrito" required>
+                    <input type="text" id="Celular" class="modal-field" placeholder="Celular do inscrito" required>
+                    <input type="text" id="Cidade" class="modal-field" placeholder="Cidade do inscrito" required>
+                </form>
+            </table>
+                <footer class="modal-footer">
+                    <button id="salvar" class="button green">Salvar</button>
+                    <button id="cancelar" class="button blue">Cancelar</button>
+                </footer>
+            </div>
+        </div>
+    </main>
+    <footer>
+    
+    </footer>
+</body>
+
+</html>
